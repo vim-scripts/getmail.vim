@@ -2,7 +2,7 @@
 " Language:	getmailrc - configuration file for getmail
 " Maintainer:	Nikolai Nespor <nikolai.nespor@utanet.at>
 " URL:		http://www.unet.univie.ac.at/~a9600989/vim/getmail.vim
-" Last Change:	2002 09 23
+" Last Change:	2003 03 23
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -19,13 +19,12 @@ syn match gmComment /#.*$/
 syn keyword gmTrue 1
 syn keyword gmFalse 0
 
-syn keyword gmKeywd contained delete delete_after eliminate_duplicates
+syn keyword gmKeywd contained delete delete_after envelope_recipient
 syn keyword gmKeywd contained extension_depth extension_sep local
 syn keyword gmKeywd contained max_message_size max_messages_per_session
 syn keyword gmKeywd contained message_log no_delivered_to no_recived
-syn keyword gmKeywd contained password port postmaster readall recipient_header
-syn keyword gmKeywd contained relaxed_adddress_match server timeout username
-syn keyword gmKeywd contained use_apop verbose
+syn keyword gmKeywd contained password port postmaster readall server 
+syn keyword gmKeywd contained timeout username use_apop use_*env verbose
 
 " Define the default highlighting.
 " For version 5.7 and earlier: only when not done already
