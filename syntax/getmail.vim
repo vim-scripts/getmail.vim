@@ -2,7 +2,7 @@
 " Language:	getmailrc - configuration file for getmail
 " Maintainer:	Nikolai Nespor <nikolai.nespor@utanet.at>
 " URL:		http://www.unet.univie.ac.at/~a9600989/vim/getmail.vim
-" Last change:	2002 09 03
+" Last Change:	2002 09 23
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
