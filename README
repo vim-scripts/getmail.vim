@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=404
+
+A syntax file for getmail (a fetchmail replacement written in Python). Based on samba.vim.
+
+getmail homepage: http://pyropus.ca/software/getmail/
