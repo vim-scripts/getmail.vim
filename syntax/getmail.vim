@@ -2,7 +2,7 @@
 " Language:	getmailrc - configuration file for getmail
 " Maintainer:	Nikolai Nespor <nikolai.nespor@utanet.at>
 " URL:		http://www.unet.univie.ac.at/~a9600989/vim/getmail.vim
-" Last Change:	2003 03 23
+" Last Change:	2003 09 04
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -19,6 +19,7 @@ syn match gmComment /#.*$/
 syn keyword gmTrue 1
 syn keyword gmFalse 0
 
+syn keyword gmKeywd contained command_add_fromline
 syn keyword gmKeywd contained delete delete_after envelope_recipient
 syn keyword gmKeywd contained extension_depth extension_sep local
 syn keyword gmKeywd contained max_message_size max_messages_per_session
